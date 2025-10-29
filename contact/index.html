@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta name="robots" content="noindex, nofollow">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio site.">
+    <meta name="keywords" content="">
+    <title>Contact</title>
+      <link rel="stylesheet" href="/assets/styles/index.css">
+  </head>
+  <body class=" min-h-screen bg-gradient-to-bl from-neutral-900 via-gray-800 to-zinc-700 bg-no-repeat ">
+
+    <header class="relative w-full text-white top-0 z-20 bg-black/40 backdrop-blur-md border-b border-white/10 min-h-[96px]">
+  <div class="container mx-auto flex items-center justify-between py-6 px-4">
+    <h1 class="m-0 p-0">
+      <a href="/" class="block w-full text-3xl md:text-5xl lg:text-6xl font-mono font-black tracking-tight text-white drop-shadow-[0_4px_32px_rgba(0,0,0,0.7)] leading-none no-underline hover:text-blue-300 transition-colors duration-200">Joshua Ross</a>
+    </h1>
+    <nav class="bg-transparent p-0 border-0 shadow-none rounded-none mt-0 opacity-80">
+      <ul class="flex gap-4 items-center m-0 p-0 list-none">
+        <li>
+          <a href="/" class="inline px-2 py-0 text-white font-normal text-base transition-colors duration-150 hover:text-blue-400 focus:outline-none focus:underline focus:underline-offset-4">
+            Home
+          </a>
+        </li>
+        <li>
+          <a href="/contact/" class="inline px-2 py-0 text-white font-normal text-base transition-colors duration-150 hover:text-blue-400 focus:outline-none focus:underline focus:underline-offset-4 text-blue-400 underline underline-offset-4">
+            Contact
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+    
+<div class="max-w-xl mx-auto mt-12 p-8 bg-white/80 rounded-lg shadow-lg">
+  <h1 class="text-3xl font-bold mb-4 text-center">Contact Me</h1>
+  <p class="mb-6 text-center text-gray-700">
+    For questions, projects, or anything else, contact me here and I'll reply as soon as I can.
+  </p>
+  <form action="https://formspree.io/f/xnnzvekj" method="post" class="flex flex-col gap-4">
+    <label class="flex flex-col gap-1">
+      Your Email
+      <input type="email" name="email" required="" class="border rounded px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-400">
+    </label>
+    <label class="flex flex-col gap-1">
+      Your Message
+      <textarea name="message" required="" rows="5" class="border rounded px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-400"></textarea>
+    </label>
+    <!-- Honeypot field for spam protection -->
+    <input type="text" name="website" style="display:none">
+    <button type="submit" class="bg-blue-600 hover:bg-blue-700 text-white font-semibold px-6 py-2 rounded transition-colors">
+      Send
+    </button>
+  </form>
+</div>
+
+  </body>
+</html>
+<!-- flex flex-col min-h-screen bg-gradient-to-bl from-neutral-900 via-gray-800 to-zinc-700 bg-no-repeat text-black -->
